@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  
+
+  <div class="container">
+  
+    <div class="search-container">
+      <img src="./assets/images/logo.svg" alt="official logo of the website" />
+      <img src="./assets/images/icon-moon.svg" alt="toggle theme" class="day-toggle" />
+    </div>
+
+    
+    <div class="extension-list-header">
+      <div id="exten-writeup">
+        <h2>Extension List</h2>
+      </div>
+      <div id="exten-bottons">
+        <button class="ext-btn" data-filter="all">All</button>
+        <button class="ext-btn" data-filter="active">Active</button>
+        <button class="ext-btn" data-filter="inactive">Inactive</button>
+      </div>
+    </div>
+
+    
+    <div class="extension-list-content">
+      <div class="grid-container" id="extensionContainer">
+       
+      </div>
+    </div>
+
+  
+    <div id="paginationControls">
+      <button id="prevBtn" style="display: none;">Previous</button>
+      <span id="pageIndicator"></span>
+      <button id="nextBtn" style="display: none;">Next</button>
+    </div>
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Eruanga">VY CODEZONE</a>
+  </div>
+  
+
+  <script src="./assets/script.js"></script>
+</body>
+</html>
