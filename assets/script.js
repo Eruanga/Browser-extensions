@@ -25,7 +25,7 @@ function renderExtensions(extensions) {
         </div>
       </div>
       <div class="toggle-div">
-        <button><a href="./remove.html">Remove</a></button>
+        <button><a href="/../remove.html">Remove</a></button>
         <label class="switch">
           <input type="checkbox" class="toggle-switch" ${ext.isActive ? 'checked' : ''} data-index="${index}">
           <span class="slider round"></span>
